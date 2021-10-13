@@ -1,0 +1,26 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search {
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.search form {
+    display: inline;
+}
+.search input {
+    margin: 20px auto;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(241, 201, 19);
+    color: white;
+    text-align: center;
+}
+::placeholder {
+    text-align: center;
+    color: rgb(182, 182, 182);
+}

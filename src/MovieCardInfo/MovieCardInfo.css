@@ -1,0 +1,40 @@
+.cardInfo {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfo .info {
+    color: white;
+    display: flex;
+}
+.pt1 {
+    width: 30%;
+}
+.pt1 img {
+    padding-top: 30px;
+    height: 400px;
+}
+.pt2 {
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+}
+.pt2 iframe {
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.cardInfo button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(170, 250, 9);
+    box-sizing: border-box;
+    margin-left: 90px;
+    width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
